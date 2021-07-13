@@ -1,5 +1,5 @@
 {% set name = "mosartwmpy" %}
-{% set version = "0.0.7" %}
+{% set version = "0.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7bc81d4a0bc49684e9c2bc8235630566e62c9414dc5159bab97ceefb016a02d5
+  sha256: fe0f49f89d7b31c1c340cdb7736fdb9ab87263a48f5db2a397a4078ae2d45573
 
 build:
   number: 0
@@ -22,11 +22,11 @@ requirements:
   run:
     - bmipy ==2.0
     - dask ==2021.5.1
-    - ipython ==7.24.1
+    - h5netcdf ==0.11.0
     - matplotlib-base ==3.4.2
     - nc-time-axis ==1.2.0
     - netcdf4 ==1.5.6
-    - numexpr ==2.7.3
+    - numba ==0.53.1
     - numpy ==1.20.3
     - pandas ==1.2.4
     - pathvalidate ==2.3.0
