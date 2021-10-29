@@ -1,5 +1,5 @@
 {% set name = "mosartwmpy" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fe0f49f89d7b31c1c340cdb7736fdb9ab87263a48f5db2a397a4078ae2d45573
+  sha256: 31bf06648759717725af453a2533d235baf1fb5f09b09fcdd2c47d7db85f4ae7
 
 build:
   number: 0
