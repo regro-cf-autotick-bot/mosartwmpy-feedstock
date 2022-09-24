@@ -1,5 +1,5 @@
 {% set name = "mosartwmpy" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 14963cb3479c2582bd08efa9e253ead66a09a2f33b6da9892007182d40f77bdc
+  sha256: 22241d3b0cc7c23ebf1080ae96e4d4cfc898fbeda363ab50d812259cb2530ce9
 
 build:
   number: 0
@@ -38,6 +38,7 @@ requirements:
     - pathvalidate ==2.5.0
     - psutil ==5.8.0
     - pyarrow ==5.0.0
+    - pyomo ==6.2
     - python >=3.6,<4.0
     - python-benedict ==0.24.3
     - regex ==2021.10.23
